@@ -1,192 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Soumyansu Sarkar — CV</title>
-  <meta name="description" content="Banking & Financial Services Technology Transformation Leader | CXO Stakeholder Engagement" />
-  <meta property="og:title" content="Soumyansu Sarkar — CV" />
-  <meta property="og:description" content="Banking & Financial Services Technology Transformation Leader with 22+ years across BFSI & FinTech in India and the Middle East." />
-  <meta property="og:type" content="website" />
+  <meta name="description" content="Banking & Financial Services Technology Transformation Leader | CXO Stakeholder Engagement">
+  <!-- Keep Tailwind utility tokens used previously (rounded-xl, border-white/10, px-3, py-2, etc.) -->
+  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide icons (used previously with data-lucide="...") -->
+  <script src="https://unpkg.com/lucide@latest"></script>
   <style>
     :root { color-scheme: dark light; }
-    body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif; }
-    .section-title { @apply text-xl font-semibold tracking-tight; }
-    .badge { @apply inline-block rounded-full border border-white/10 px-3 py-1 text-sm; }
-    .card { @apply rounded-2xl border border-white/10 bg-white/5 p-5 shadow-sm backdrop-blur; }
-    .prose-li { @apply ml-4 list-disc; }
+    body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif; }
+    .container { max-width: 72rem; }
+    .chip { @apply rounded-xl border border-white/10 px-3 py-2 text-sm; }
+    .section { @apply rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur; }
+    .kicker { @apply text-slate-300 text-sm; }
+    .muted { @apply text-slate-400; }
+    .title { @apply text-xl font-semibold tracking-tight; }
+    .h1 { @apply text-3xl font-bold tracking-tight; }
+    .li { @apply ml-4 list-disc; }
   </style>
 </head>
 <body class="bg-slate-950 text-slate-100 antialiased">
-  <main class="mx-auto max-w-4xl px-5 py-10 space-y-10">
-    <!-- Header -->
+  <main class="container mx-auto px-5 py-10 space-y-8">
+    <!-- Header: keep same button styles & lucide usage -->
     <header class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
       <div>
-        <h1 class="text-3xl font-bold tracking-tight">Soumyansu Sarkar</h1>
-        <p class="mt-1 text-slate-300">Banking &amp; Financial Services Technology Transformation Leader &middot; CXO Stakeholder Engagement</p>
-        <p class="mt-1 text-slate-400">Dubai, UAE</p>
+        <h1 class="h1">Soumyansu Sarkar</h1>
+        <p class="kicker">Banking &amp; Financial Services Technology Transformation Leader &middot; CXO Stakeholder Engagement</p>
+        <p class="muted">Dubai, UAE</p>
       </div>
       <nav class="flex flex-wrap gap-2">
-        <a class="badge" href="tel:+971569491212" aria-label="Call">+971&nbsp;56&nbsp;949&nbsp;1212</a>
-        <a class="badge" href="mailto:soumyansu@gmail.com" aria-label="Email">soumyansu@gmail.com</a>
-        <a class="badge" href="https://www.linkedin.com/in/soumyansu/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">LinkedIn</a>
+        <a href="tel:+971569491212" class="chip" aria-label="Phone"><i data-lucide="phone"></i> <span class="sr-only">Phone</span><span class="not-sr-only">+971&nbsp;56&nbsp;949&nbsp;1212</span></a>
+        <a href="mailto:soumyansu@gmail.com" class="chip" aria-label="Email"><i data-lucide="mail"></i> <span class="sr-only">Email</span><span class="not-sr-only">soumyansu@gmail.com</span></a>
+        <a href="https://www.linkedin.com/in/soumyansu/" class="chip" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <i data-lucide="linkedin"></i><span class="sr-only">LinkedIn</span><span class="not-sr-only">LinkedIn</span>
+        </a>
       </nav>
     </header>
 
     <!-- Summary -->
-    <section class="card">
-      <h2 class="section-title">Summary</h2>
+    <section class="section">
+      <h2 class="title">Summary</h2>
       <p class="mt-3 leading-relaxed text-slate-200">
         Senior Banking Technology Transformation Leader with 22+ years delivering large-scale programmes across Banking, Financial
         Services, and FinTech in India and the Middle East. Specialist in Treasury/FX platforms, trade finance modernisation, and
         digital banking integrations, with proven expertise in governance, risk, and compliance. Recognised for steering mission-critical
-        technology transformations that strengthen resilience, regulatory alignment, and client outcomes. A strategic, people-driven
-        leader who forges CXO-level partnerships and drives measurable, sustainable business impact.
+        technology transformations that strengthen resilience, regulatory alignment, and client outcomes. A strategic, people‑driven
+        leader who forges CXO‑level partnerships and drives measurable, sustainable business impact.
       </p>
     </section>
 
     <!-- Experience -->
-    <section class="space-y-5">
-      <h2 class="section-title">Experience</h2>
+    <section class="space-y-4">
+      <h2 class="title">Experience</h2>
 
-      <article class="card">
+      <article class="section">
         <header class="flex flex-col sm:flex-row sm:items-center sm:justify-between">
           <div>
             <h3 class="font-semibold">Assistant General Manager</h3>
-            <p class="text-sm text-slate-300">Expleo Group — Dubai, UAE (Deputed to RAKBANK)</p>
+            <p class="kicker">Expleo Group — Dubai, UAE (Deputed to RAKBANK)</p>
           </div>
-          <div class="text-sm text-slate-400">Sep 2024 – Present</div>
+          <div class="muted">Sep 2024 – Present</div>
         </header>
         <ul class="mt-3 space-y-2 text-slate-200">
-          <li class="prose-li">Direct the FX Transformation Programme (Top 3 strategic projects FY 2024–25), delivering live, personalised FX rates across digital channels; achieved +12% customer onboarding and +23.5% digital FX transactions.</li>
-          <li class="prose-li">Led UAE’s first trade‑finance live‑rate integration; reduced manual processing time by 27.3%, improved pricing agility, and raised customer satisfaction by 48%.</li>
-          <li class="prose-li">Designed &amp; implemented microservices‑based integration with LSEG Electronic Trading; lowered release risk by 50%, eliminated manual interventions, and accelerated time‑to‑market by 15%.</li>
-          <li class="prose-li">Established cross‑functional governance forums (Treasury, Retail, Operations, IT); improved release predictability by 33.3% and ensured audit/regulatory compliance.</li>
+          <li class="li">Direct the FX Transformation Programme (Top 3 strategic projects FY 2024–25), delivering live, personalised FX rates across digital channels; achieved +12% customer onboarding and +23.5% digital FX transactions.</li>
+          <li class="li">Led UAE’s first trade‑finance live‑rate integration; reduced manual processing time by 27.3%, improved pricing agility, and raised customer satisfaction by 48%.</li>
+          <li class="li">Designed &amp; implemented microservices‑based integration with LSEG Electronic Trading; lowered release risk by 50%, eliminated manual interventions, and accelerated time‑to‑market by 15%.</li>
+          <li class="li">Established cross‑functional governance forums (Treasury, Retail, Operations, IT); improved release predictability by 33.3% and ensured audit/regulatory compliance.</li>
         </ul>
       </article>
 
-      <article class="card">
+      <article class="section">
         <header class="flex flex-col sm:flex-row sm:items-center sm:justify-between">
           <div>
             <h3 class="font-semibold">Vice President &amp; Operations Planning Head</h3>
-            <p class="text-sm text-slate-300">Mizuho Bank — Mumbai, India</p>
+            <p class="kicker">Mizuho Bank — Mumbai, India</p>
           </div>
-          <div class="text-sm text-slate-400">Apr 2024 – Sep 2024</div>
+          <div class="muted">Apr 2024 – Sep 2024</div>
         </header>
         <ul class="mt-3 space-y-2 text-slate-200">
-          <li class="prose-li">Oversaw the bank’s business continuity programme across India; designed and executed drills that strengthened resilience and regulatory preparedness.</li>
-          <li class="prose-li">Implemented structured governance &amp; tracking for milestone visibility, resource utilisation, and budget compliance.</li>
-          <li class="prose-li">Enhanced audit and risk controls, proactively addressing gaps to align with internal policies and external regulations.</li>
+          <li class="li">Oversaw the bank’s business continuity programme across India; designed and executed drills that strengthened resilience and regulatory preparedness.</li>
+          <li class="li">Implemented structured governance &amp; tracking for milestone visibility, resource utilisation, and budget compliance.</li>
+          <li class="li">Enhanced audit and risk controls, proactively addressing gaps to align with internal policies and external regulations.</li>
         </ul>
       </article>
 
-      <article class="card">
+      <article class="section">
         <header class="flex flex-col sm:flex-row sm:items-center sm:justify-between">
           <div>
             <h3 class="font-semibold">Assistant Vice President</h3>
-            <p class="text-sm text-slate-300">HDFC Bank — Mumbai, India</p>
+            <p class="kicker">HDFC Bank — Mumbai, India</p>
           </div>
-          <div class="text-sm text-slate-400">Nov 2022 – Mar 2024</div>
+          <div class="muted">Nov 2022 – Mar 2024</div>
         </header>
         <ul class="mt-3 space-y-2 text-slate-200">
-          <li class="prose-li">Managed &amp; enhanced the Treasury FX technology stack (Eikon, FXall, Workspace, World‑Check, AI algorithms), safeguarding stability and regulatory compliance.</li>
-          <li class="prose-li">Introduced a severity‑based incident response model, significantly reducing MTTR and improving platform reliability.</li>
-          <li class="prose-li">Delivered continuous enhancements aligned to front‑office and regulatory priorities with high stakeholder satisfaction.</li>
+          <li class="li">Managed &amp; enhanced the Treasury FX technology stack (Eikon, FXall, Workspace, World‑Check, algorithmic/AI tooling), safeguarding stability and regulatory compliance.</li>
+          <li class="li">Introduced a severity‑based incident response model, significantly reducing MTTR and improving platform reliability.</li>
+          <li class="li">Delivered continuous enhancements aligned to front‑office and regulatory priorities with high stakeholder satisfaction.</li>
         </ul>
       </article>
 
-      <article class="card">
+      <article class="section">
         <header class="flex flex-col sm:flex-row sm:items-center sm:justify-between">
           <div>
             <h3 class="font-semibold">Project Manager</h3>
-            <p class="text-sm text-slate-300">Refinitiv / London Stock Exchange Group — Mumbai, India (Regional)</p>
+            <p class="kicker">Refinitiv / London Stock Exchange Group — Mumbai, India (Regional)</p>
           </div>
-          <div class="text-sm text-slate-400">Aug 2016 – Oct 2022</div>
+          <div class="muted">Aug 2016 – Oct 2022</div>
         </header>
         <ul class="mt-3 space-y-2 text-slate-200">
-          <li class="prose-li">Directed large‑scale programmes across India, UAE, Bahrain, Kuwait, Morocco, and Oman; engaged C‑suite stakeholders to ensure seamless delivery.</li>
-          <li class="prose-li">Led pre‑sales governance (RFP/RFI/SOW) and delivery execution; established steering committees, risk frameworks, and transparent reporting that supported bid wins and profitable delivery.</li>
+          <li class="li">Directed large‑scale programmes across India, UAE, Bahrain, Kuwait, Morocco, and Oman; engaged C‑suite stakeholders to ensure seamless delivery.</li>
+          <li class="li">Led pre‑sales governance (RFP/RFI/SOW) and delivery execution; established steering committees, risk frameworks, and transparent reporting supporting bid wins and profitable delivery.</li>
         </ul>
       </article>
 
-      <article class="card">
+      <article class="section">
         <header class="flex flex-col sm:flex-row sm:items-center sm:justify-between">
           <div>
             <h3 class="font-semibold">Manager — IT Projects &amp; Procurement</h3>
-            <p class="text-sm text-slate-300">Wipro Infotech — Mumbai, India</p>
+            <p class="kicker">Wipro Infotech — Mumbai, India</p>
           </div>
-          <div class="text-sm text-slate-400">Aug 2010 – Jul 2016</div>
+          <div class="muted">Aug 2010 – Jul 2016</div>
         </header>
       </article>
 
-      <article class="card">
+      <article class="section">
         <header class="flex flex-col sm:flex-row sm:items-center sm:justify-between">
           <div>
             <h3 class="font-semibold">National Business Manager (IT Services — Sales)</h3>
-            <p class="text-sm text-slate-300">AGC Networks Limited — Mumbai, India</p>
+            <p class="kicker">AGC Networks Limited — Mumbai, India</p>
           </div>
-          <div class="text-sm text-slate-400">Aug 2010 – Jun 2012</div>
+          <div class="muted">Aug 2010 – Jun 2012</div>
         </header>
       </article>
 
-      <article class="card">
+      <article class="section">
         <header class="flex flex-col sm:flex-row sm:items-center sm:justify-between">
           <div>
             <h3 class="font-semibold">Technical Support — South Asia</h3>
-            <p class="text-sm text-slate-300">Thomson Reuters — Mumbai, India</p>
+            <p class="kicker">Thomson Reuters — Mumbai, India</p>
           </div>
-          <div class="text-sm text-slate-400">May 2008 – Jul 2010</div>
+          <div class="muted">May 2008 – Jul 2010</div>
         </header>
       </article>
 
-      <article class="card">
+      <article class="section">
         <header class="flex flex-col sm:flex-row sm:items-center sm:justify-between">
           <div>
             <h3 class="font-semibold">Team Leader — Collections (Barclays, Sparsh Division)</h3>
-            <p class="text-sm text-slate-300">Intelenet Global Services — Mumbai, India</p>
+            <p class="kicker">Intelenet Global Services — Mumbai, India</p>
           </div>
-          <div class="text-sm text-slate-400">Jun 2007 – Nov 2007</div>
+          <div class="muted">Jun 2007 – Nov 2007</div>
         </header>
       </article>
 
-      <article class="card">
+      <article class="section">
         <header class="flex flex-col sm:flex-row sm:items-center sm:justify-between">
           <div>
             <h3 class="font-semibold">Senior Technical Support (Optus ISP)</h3>
-            <p class="text-sm text-slate-300">Convergys — Mumbai, India</p>
+            <p class="kicker">Convergys — Mumbai, India</p>
           </div>
-          <div class="text-sm text-slate-400">Mar 2006 – Dec 2006</div>
+          <div class="muted">Mar 2006 – Dec 2006</div>
         </header>
       </article>
 
-      <article class="card">
+      <article class="section">
         <header class="flex flex-col sm:flex-row sm:items-center sm:justify-between">
           <div>
             <h3 class="font-semibold">Senior CRE — Household Collections (HSBC)</h3>
-            <p class="text-sm text-slate-300">Intelenet Global Services — Mumbai, India</p>
+            <p class="kicker">Intelenet Global Services — Mumbai, India</p>
           </div>
-          <div class="text-sm text-slate-400">Jun 2004 – Mar 2006</div>
+          <div class="muted">Jun 2004 – Mar 2006</div>
         </header>
       </article>
 
-      <article class="card">
+      <article class="section">
         <header class="flex flex-col sm:flex-row sm:items-center sm:justify-between">
           <div>
             <h3 class="font-semibold">Technical Support (Microsoft MSNIA)</h3>
-            <p class="text-sm text-slate-300">Wipro Spectramind — Mumbai, India</p>
+            <p class="kicker">Wipro Spectramind — Mumbai, India</p>
           </div>
-          <div class="text-sm text-slate-400">May 2003 – Jun 2004</div>
+          <div class="muted">May 2003 – Jun 2004</div>
         </header>
       </article>
     </section>
 
     <!-- Skills -->
-    <section class="card">
-      <h2 class="section-title">Skills</h2>
+    <section class="section">
+      <h2 class="title">Skills</h2>
       <ul class="mt-3 grid grid-cols-1 gap-2 sm:grid-cols-2">
         <li>Project Management</li>
         <li>Portfolio Planning</li>
@@ -203,26 +209,26 @@
     </section>
 
     <!-- Education -->
-    <section class="card">
-      <h2 class="section-title">Education</h2>
+    <section class="section">
+      <h2 class="title">Education</h2>
       <p class="mt-3">
         <span class="font-semibold">Bachelor of Science, Information Technology</span> — International American University, Los Angeles, USA (May 2007)
       </p>
     </section>
 
     <!-- Awards & Accolades -->
-    <section class="card">
-      <h2 class="section-title">Awards &amp; Accolades</h2>
+    <section class="section">
+      <h2 class="title">Awards &amp; Accolades</h2>
       <ul class="mt-3 space-y-2 text-slate-200">
-        <li class="prose-li"><span class="font-semibold">Refinitiv / LSEG (2016–2022):</span> Delivered a bespoke solution for a leading private bank in India, generating the highest single‑project revenue in India and the top revenue contribution for that year.</li>
-        <li class="prose-li"><span class="font-semibold">Wipro Infotech (2012–2016):</span> Outstanding Achiever, Promising Newcomer, and Highest Sales Award (consecutive years).</li>
-        <li class="prose-li"><span class="font-semibold">AGC Networks (2010–2012):</span> Secured INR 130M additional revenue via outside processing; won major clients including Accenture, Singapore Airlines, Trident BKC, Yu Telecom Kenya, and Deloitte.</li>
+        <li class="li"><span class="font-semibold">Refinitiv / LSEG (2016–2022):</span> Delivered a bespoke solution for a leading private bank in India, generating the highest single‑project revenue in India and the top revenue contribution for that year.</li>
+        <li class="li"><span class="font-semibold">Wipro Infotech (2012–2016):</span> Outstanding Achiever, Promising Newcomer, and Highest Sales Award (consecutive years).</li>
+        <li class="li"><span class="font-semibold">AGC Networks (2010–2012):</span> Secured INR 130M additional revenue via outside processing; won major clients including Accenture, Singapore Airlines, Trident BKC, Yu Telecom Kenya, and Deloitte.</li>
       </ul>
     </section>
 
     <!-- Certifications & Training -->
-    <section class="card">
-      <h2 class="section-title">Certifications &amp; Professional Training</h2>
+    <section class="section">
+      <h2 class="title">Certifications &amp; Professional Training</h2>
       <ul class="mt-3 grid grid-cols-1 gap-2 sm:grid-cols-2">
         <li>IRMC Academy — Information Security, Risk &amp; Compliance (Oct 2022)</li>
         <li>Google — Project Management Certificate (Dec 2021)</li>
@@ -234,8 +240,8 @@
     </section>
 
     <!-- Tools & Methods -->
-    <section class="card">
-      <h2 class="section-title">IT Tools &amp; Methodologies</h2>
+    <section class="section">
+      <h2 class="title">IT Tools &amp; Methodologies</h2>
       <ul class="mt-3 grid grid-cols-1 gap-2 sm:grid-cols-2">
         <li>Waterfall · Agile / Scrum · Hybrid</li>
         <li>RAID · Change Management</li>
@@ -247,8 +253,8 @@
     </section>
 
     <!-- Personal Details -->
-    <section class="card">
-      <h2 class="section-title">Personal Details</h2>
+    <section class="section">
+      <h2 class="title">Personal Details</h2>
       <p class="mt-3">Visa: Transferrable</p>
     </section>
 
@@ -258,7 +264,7 @@
   </main>
 
   <script>
-    // Set current year
+    lucide.createIcons();
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
 </body>
